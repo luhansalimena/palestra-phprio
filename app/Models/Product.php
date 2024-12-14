@@ -11,7 +11,7 @@ class Product extends Model
     /** @use HasFactory<\Database\Factories\ProductFactory> */
     use HasFactory;
 
-    public function photos(): HasOne
+    public function photo(): HasOne
     {
         return $this->hasOne(Photo::class);
     }
