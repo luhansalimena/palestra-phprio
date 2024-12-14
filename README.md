@@ -46,3 +46,6 @@ Para configurar o projeto, siga os passos abaixo:
 Para iniciar o servidor de desenvolvimento, execute:
 ```sh
 php artisan serve
+
+```
+Todos os exemplos estão disponíveis no arquivo `routes/web.php`.
